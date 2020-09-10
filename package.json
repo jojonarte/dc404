@@ -5,6 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "parcel *.html",
+		"build": "rm -rf build && parcel build *.html --dist-dir build",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
