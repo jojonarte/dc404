@@ -1,0 +1,16 @@
+{
+	"name": "dc-404",
+	"version": "1.0.0",
+	"description": "<!-- Please update value in the {}  -->",
+	"main": "index.js",
+	"scripts": {
+		"dev": "parcel *.html",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"normalize.css": "^8.0.1"
+	}
+}
