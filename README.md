@@ -49,9 +49,10 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- vanilla HTML and CSS
+- [parcel.js](https://parceljs.org/) as my bundler
+- [netlify](https://netlify.com/) for deployment
+- [normalize.css](https://github.com/necolas/normalize.css/blob/master/normalize.css) which I grabbed from the original repo
 
 ## Features
 

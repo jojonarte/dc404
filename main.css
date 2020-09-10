@@ -21,11 +21,13 @@ header {
 
 .container {
 	min-height: 100vh;
+	max-width: 1920px;
 	padding: 3rem 6rem;
 	position: relative;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
+	margin: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -46,11 +48,12 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-bottom: 4rem;
+	margin: 4rem 0;
 }
 
 main section {
 	flex: 1;
+	height: 100%;
 }
 
 .scarecrow {
