@@ -42,11 +42,11 @@ header {
 }
 
 main {
+	align-items: flex-start;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
 	justify-content: space-between;
-	align-items: flex-start;
+	margin-bottom: 4rem;
 }
 
 main section {
@@ -55,6 +55,7 @@ main section {
 
 .scarecrow {
 	height: 100%;
+	width: auto;
 }
 
 main .section-1 img {
