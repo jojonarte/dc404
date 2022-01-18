@@ -30,6 +30,15 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" type="text/css" href="./main.css" />
+		<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+		<script>
+			window.OneSignal = window.OneSignal || [];
+			OneSignal.push(function() {
+				OneSignal.init({
+				appId: "9f420eaa-1e09-4be3-910e-e1a4e2fe368c",
+				});
+			});
+		</script>
 		<title>404 NOT FOUND</title>
 	</head>
 	<body class="container">
